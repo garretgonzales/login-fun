@@ -21,6 +21,7 @@ body {
     transform: translate(-50%, -50%);
     background: cornflowerblue;
     text-align: center;
+    border-radius: 20px;
 }
 
 .box input[type = "text"], .box input[type = 'password'] {
@@ -40,5 +41,25 @@ body {
 
 .box input[type ='text']:focus, .box input[type ='password']:focus {
 width: 300px;
-border-color: #4EA5FF;
+border-color: #99FFBB;
+}
+
+.box input[type = "submit"]{
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    border: 2px solid#99FFBB;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+.box input[type = "submit"]:hover {
+    background: 4EA5FF;
 }
