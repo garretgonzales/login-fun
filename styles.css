@@ -6,6 +6,12 @@ body {
     background: #193552;
 }
 
+.box h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 .box {
     width: 300px;
     padding: 40px;
@@ -17,6 +23,22 @@ body {
     text-align: center;
 }
 
-.box input {
+.box input[type = "text"], .box input[type = 'password'] {
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 20px;
+    transition: 0.25s;
+}
 
+.box input[type ='text']:focus, .box input[type ='password']:focus {
+width: 300px;
+border-color: #4EA5FF;
 }
