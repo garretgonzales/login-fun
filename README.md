@@ -7,9 +7,9 @@ Simple, animated login box built using HTML/CSS
 
 **MVP:**
 
-- [ ] Form built
-- [ ] Animate on load
-- [ ] Animate on hover
+- [x] Form built
+- [x] Animate on load
+- [x] Animate on hover
 - [ ] Transitioning background
 - [ ] Ambiance :a: ✨
 
